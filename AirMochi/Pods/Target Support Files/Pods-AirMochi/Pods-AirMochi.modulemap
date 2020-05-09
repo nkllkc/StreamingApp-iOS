@@ -1,0 +1,6 @@
+framework module Pods_AirMochi {
+  umbrella header "Pods-AirMochi-umbrella.h"
+
+  export *
+  module * { export * }
+}

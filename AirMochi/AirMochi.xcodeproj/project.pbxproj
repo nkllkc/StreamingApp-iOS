@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5528EAF72CB3C57F0BE7C405 /* Pods_ScreenStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC3608EA34369EAA9876875 /* Pods_ScreenStreamer.framework */; };
+		88CAD3C20C2583CC4011E00F /* Pods_AirMochi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E654FCDC54F81E63EBE29528 /* Pods_AirMochi.framework */; };
+		938FBCC72465D00E00B18A05 /* ReplayKitVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */; };
+		938FBCC82465D04F00B18A05 /* ReplayKitVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */; };
+		93EF46CC24650C9E0029E746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF46CB24650C9E0029E746 /* AppDelegate.swift */; };
+		93EF46CE24650C9E0029E746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF46CD24650C9E0029E746 /* SceneDelegate.swift */; };
+		93EF46D024650C9E0029E746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF46CF24650C9E0029E746 /* ViewController.swift */; };
+		93EF46D324650C9E0029E746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EF46D124650C9E0029E746 /* Main.storyboard */; };
+		93EF46D524650CA00029E746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EF46D424650CA00029E746 /* Assets.xcassets */; };
+		93EF46D824650CA00029E746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EF46D624650CA00029E746 /* LaunchScreen.storyboard */; };
+		93EF46E6246512040029E746 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EF46E5246512040029E746 /* ReplayKit.framework */; };
+		93EF46E9246512040029E746 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF46E8246512040029E746 /* SampleHandler.swift */; };
+		93EF46ED246512040029E746 /* ScreenStreamer.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 93EF46E3246512040029E746 /* ScreenStreamer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93EF46EB246512040029E746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93EF46C024650C9E0029E746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93EF46E2246512040029E746;
+			remoteInfo = ScreenStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93EF46EE246512040029E746 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				93EF46ED246512040029E746 /* ScreenStreamer.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1883F2F0BAA77E2F1B90D3D1 /* Pods-AirMochi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMochi.debug.xcconfig"; path = "Target Support Files/Pods-AirMochi/Pods-AirMochi.debug.xcconfig"; sourceTree = "<group>"; };
+		239D7ADCFE07DCA5ECA005FF /* Pods-AirMochi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMochi.release.xcconfig"; path = "Target Support Files/Pods-AirMochi/Pods-AirMochi.release.xcconfig"; sourceTree = "<group>"; };
+		8132F3157355788D57706B5C /* Pods-ScreenStreamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenStreamer.debug.xcconfig"; path = "Target Support Files/Pods-ScreenStreamer/Pods-ScreenStreamer.debug.xcconfig"; sourceTree = "<group>"; };
+		938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitVideoSource.swift; sourceTree = "<group>"; };
+		93EF46C824650C9E0029E746 /* AirMochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirMochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EF46CB24650C9E0029E746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93EF46CD24650C9E0029E746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93EF46CF24650C9E0029E746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93EF46D224650C9E0029E746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93EF46D424650CA00029E746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93EF46D724650CA00029E746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93EF46D924650CA00029E746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EF46E3246512040029E746 /* ScreenStreamer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScreenStreamer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EF46E5246512040029E746 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		93EF46E8246512040029E746 /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		93EF46EA246512040029E746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC3608EA34369EAA9876875 /* Pods_ScreenStreamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenStreamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF8DD923A4B4194F2464308 /* Pods-ScreenStreamer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenStreamer.release.xcconfig"; path = "Target Support Files/Pods-ScreenStreamer/Pods-ScreenStreamer.release.xcconfig"; sourceTree = "<group>"; };
+		E654FCDC54F81E63EBE29528 /* Pods_AirMochi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirMochi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93EF46C524650C9E0029E746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CAD3C20C2583CC4011E00F /* Pods_AirMochi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93EF46E0246512040029E746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EF46E6246512040029E746 /* ReplayKit.framework in Frameworks */,
+				5528EAF72CB3C57F0BE7C405 /* Pods_ScreenStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B5AE5A4DF5D664A6A6F8B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1883F2F0BAA77E2F1B90D3D1 /* Pods-AirMochi.debug.xcconfig */,
+				239D7ADCFE07DCA5ECA005FF /* Pods-AirMochi.release.xcconfig */,
+				8132F3157355788D57706B5C /* Pods-ScreenStreamer.debug.xcconfig */,
+				ACF8DD923A4B4194F2464308 /* Pods-ScreenStreamer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93EF46BF24650C9E0029E746 = {
+			isa = PBXGroup;
+			children = (
+				93EF46CA24650C9E0029E746 /* AirMochi */,
+				93EF46E7246512040029E746 /* ScreenStreamer */,
+				93EF46E4246512040029E746 /* Frameworks */,
+				93EF46C924650C9E0029E746 /* Products */,
+				7B5AE5A4DF5D664A6A6F8B3A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		93EF46C924650C9E0029E746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93EF46C824650C9E0029E746 /* AirMochi.app */,
+				93EF46E3246512040029E746 /* ScreenStreamer.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93EF46CA24650C9E0029E746 /* AirMochi */ = {
+			isa = PBXGroup;
+			children = (
+				93EF46CB24650C9E0029E746 /* AppDelegate.swift */,
+				93EF46CD24650C9E0029E746 /* SceneDelegate.swift */,
+				93EF46CF24650C9E0029E746 /* ViewController.swift */,
+				93EF46D124650C9E0029E746 /* Main.storyboard */,
+				93EF46D424650CA00029E746 /* Assets.xcassets */,
+				93EF46D624650CA00029E746 /* LaunchScreen.storyboard */,
+				93EF46D924650CA00029E746 /* Info.plist */,
+				938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */,
+			);
+			path = AirMochi;
+			sourceTree = "<group>";
+		};
+		93EF46E4246512040029E746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93EF46E5246512040029E746 /* ReplayKit.framework */,
+				E654FCDC54F81E63EBE29528 /* Pods_AirMochi.framework */,
+				9FC3608EA34369EAA9876875 /* Pods_ScreenStreamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93EF46E7246512040029E746 /* ScreenStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				93EF46E8246512040029E746 /* SampleHandler.swift */,
+				93EF46EA246512040029E746 /* Info.plist */,
+			);
+			path = ScreenStreamer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93EF46C724650C9E0029E746 /* AirMochi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EF46DC24650CA00029E746 /* Build configuration list for PBXNativeTarget "AirMochi" */;
+			buildPhases = (
+				8133FD5DAFDB28C2B6C3D259 /* [CP] Check Pods Manifest.lock */,
+				93EF46C424650C9E0029E746 /* Sources */,
+				93EF46C524650C9E0029E746 /* Frameworks */,
+				93EF46C624650C9E0029E746 /* Resources */,
+				93EF46EE246512040029E746 /* Embed App Extensions */,
+				ACBB1C80CDC3158A7A5687A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93EF46EC246512040029E746 /* PBXTargetDependency */,
+			);
+			name = AirMochi;
+			productName = AirMochi;
+			productReference = 93EF46C824650C9E0029E746 /* AirMochi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93EF46E2246512040029E746 /* ScreenStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EF46F1246512040029E746 /* Build configuration list for PBXNativeTarget "ScreenStreamer" */;
+			buildPhases = (
+				D9AFD8CEBC2A5AF1BB00B378 /* [CP] Check Pods Manifest.lock */,
+				93EF46DF246512040029E746 /* Sources */,
+				93EF46E0246512040029E746 /* Frameworks */,
+				93EF46E1246512040029E746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenStreamer;
+			productName = ScreenStreamer;
+			productReference = 93EF46E3246512040029E746 /* ScreenStreamer.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93EF46C024650C9E0029E746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Nikola Lukic";
+				TargetAttributes = {
+					93EF46C724650C9E0029E746 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					93EF46E2246512040029E746 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 93EF46C324650C9E0029E746 /* Build configuration list for PBXProject "AirMochi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93EF46BF24650C9E0029E746;
+			productRefGroup = 93EF46C924650C9E0029E746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93EF46C724650C9E0029E746 /* AirMochi */,
+				93EF46E2246512040029E746 /* ScreenStreamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93EF46C624650C9E0029E746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EF46D824650CA00029E746 /* LaunchScreen.storyboard in Resources */,
+				93EF46D524650CA00029E746 /* Assets.xcassets in Resources */,
+				93EF46D324650C9E0029E746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93EF46E1246512040029E746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8133FD5DAFDB28C2B6C3D259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirMochi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBB1C80CDC3158A7A5687A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirMochi/Pods-AirMochi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirMochi/Pods-AirMochi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirMochi/Pods-AirMochi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9AFD8CEBC2A5AF1BB00B378 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenStreamer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93EF46C424650C9E0029E746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EF46D024650C9E0029E746 /* ViewController.swift in Sources */,
+				93EF46CC24650C9E0029E746 /* AppDelegate.swift in Sources */,
+				938FBCC72465D00E00B18A05 /* ReplayKitVideoSource.swift in Sources */,
+				93EF46CE24650C9E0029E746 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93EF46DF246512040029E746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938FBCC82465D04F00B18A05 /* ReplayKitVideoSource.swift in Sources */,
+				93EF46E9246512040029E746 /* SampleHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93EF46EC246512040029E746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93EF46E2246512040029E746 /* ScreenStreamer */;
+			targetProxy = 93EF46EB246512040029E746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93EF46D124650C9E0029E746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93EF46D224650C9E0029E746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93EF46D624650CA00029E746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93EF46D724650CA00029E746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93EF46DA24650CA00029E746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93EF46DB24650CA00029E746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93EF46DD24650CA00029E746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1883F2F0BAA77E2F1B90D3D1 /* Pods-AirMochi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FLNFHR2L3;
+				INFOPLIST_FILE = AirMochi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.softarch.AirMochi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93EF46DE24650CA00029E746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239D7ADCFE07DCA5ECA005FF /* Pods-AirMochi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FLNFHR2L3;
+				INFOPLIST_FILE = AirMochi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.softarch.AirMochi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93EF46EF246512040029E746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8132F3157355788D57706B5C /* Pods-ScreenStreamer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FLNFHR2L3;
+				INFOPLIST_FILE = ScreenStreamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.softarch.AirMochi.ScreenStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93EF46F0246512040029E746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF8DD923A4B4194F2464308 /* Pods-ScreenStreamer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FLNFHR2L3;
+				INFOPLIST_FILE = ScreenStreamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.softarch.AirMochi.ScreenStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93EF46C324650C9E0029E746 /* Build configuration list for PBXProject "AirMochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EF46DA24650CA00029E746 /* Debug */,
+				93EF46DB24650CA00029E746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93EF46DC24650CA00029E746 /* Build configuration list for PBXNativeTarget "AirMochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EF46DD24650CA00029E746 /* Debug */,
+				93EF46DE24650CA00029E746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93EF46F1246512040029E746 /* Build configuration list for PBXNativeTarget "ScreenStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EF46EF246512040029E746 /* Debug */,
+				93EF46F0246512040029E746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93EF46C024650C9E0029E746 /* Project object */;
+}
