@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		5528EAF72CB3C57F0BE7C405 /* Pods_ScreenStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC3608EA34369EAA9876875 /* Pods_ScreenStreamer.framework */; };
 		88CAD3C20C2583CC4011E00F /* Pods_AirMochi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E654FCDC54F81E63EBE29528 /* Pods_AirMochi.framework */; };
-		938FBCC72465D00E00B18A05 /* ReplayKitVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */; };
+		93316F1C2467818100183B9B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93316F1A2467816300183B9B /* Utils.swift */; };
+		93316F1D2467818200183B9B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93316F1A2467816300183B9B /* Utils.swift */; };
+		93316F1F246781CE00183B9B /* Telecine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93316F1E246781CE00183B9B /* Telecine.swift */; };
+		93316F242467822100183B9B /* ExampleReplayKitAudioCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93316F222467822100183B9B /* ExampleReplayKitAudioCapturer.m */; };
+		93641784246751BC000DF546 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 93641783246751BC000DF546 /* Utils */; };
+		93641785246751C5000DF546 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 93641783246751BC000DF546 /* Utils */; };
 		938FBCC82465D04F00B18A05 /* ReplayKitVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */; };
 		93EF46CC24650C9E0029E746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF46CB24650C9E0029E746 /* AppDelegate.swift */; };
 		93EF46CE24650C9E0029E746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF46CD24650C9E0029E746 /* SceneDelegate.swift */; };
@@ -50,6 +55,13 @@
 		1883F2F0BAA77E2F1B90D3D1 /* Pods-AirMochi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMochi.debug.xcconfig"; path = "Target Support Files/Pods-AirMochi/Pods-AirMochi.debug.xcconfig"; sourceTree = "<group>"; };
 		239D7ADCFE07DCA5ECA005FF /* Pods-AirMochi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMochi.release.xcconfig"; path = "Target Support Files/Pods-AirMochi/Pods-AirMochi.release.xcconfig"; sourceTree = "<group>"; };
 		8132F3157355788D57706B5C /* Pods-ScreenStreamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenStreamer.debug.xcconfig"; path = "Target Support Files/Pods-ScreenStreamer/Pods-ScreenStreamer.debug.xcconfig"; sourceTree = "<group>"; };
+		93316F1A2467816300183B9B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utils/Utils.swift; sourceTree = SOURCE_ROOT; };
+		93316F1E246781CE00183B9B /* Telecine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telecine.swift; sourceTree = "<group>"; };
+		93316F202467822000183B9B /* ScreenStreamer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenStreamer-Bridging-Header.h"; sourceTree = "<group>"; };
+		93316F212467822100183B9B /* ExampleReplayKitAudioCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleReplayKitAudioCapturer.h; sourceTree = "<group>"; };
+		93316F222467822100183B9B /* ExampleReplayKitAudioCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleReplayKitAudioCapturer.m; sourceTree = "<group>"; };
+		93316F232467822100183B9B /* ExampleReplayKitAudioCapturerDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleReplayKitAudioCapturerDispatch.h; sourceTree = "<group>"; };
+		93641783246751BC000DF546 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
 		938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitVideoSource.swift; sourceTree = "<group>"; };
 		93EF46C824650C9E0029E746 /* AirMochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirMochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EF46CB24650C9E0029E746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +115,7 @@
 		93EF46BF24650C9E0029E746 = {
 			isa = PBXGroup;
 			children = (
+				93641783246751BC000DF546 /* Utils */,
 				93EF46CA24650C9E0029E746 /* AirMochi */,
 				93EF46E7246512040029E746 /* ScreenStreamer */,
 				93EF46E4246512040029E746 /* Frameworks */,
@@ -130,7 +143,6 @@
 				93EF46D424650CA00029E746 /* Assets.xcassets */,
 				93EF46D624650CA00029E746 /* LaunchScreen.storyboard */,
 				93EF46D924650CA00029E746 /* Info.plist */,
-				938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */,
 			);
 			path = AirMochi;
 			sourceTree = "<group>";
@@ -148,8 +160,15 @@
 		93EF46E7246512040029E746 /* ScreenStreamer */ = {
 			isa = PBXGroup;
 			children = (
+				93316F1E246781CE00183B9B /* Telecine.swift */,
+				93316F1A2467816300183B9B /* Utils.swift */,
+				93316F212467822100183B9B /* ExampleReplayKitAudioCapturer.h */,
+				93316F222467822100183B9B /* ExampleReplayKitAudioCapturer.m */,
+				93316F232467822100183B9B /* ExampleReplayKitAudioCapturerDispatch.h */,
+				938FBCC62465D00E00B18A05 /* ReplayKitVideoSource.swift */,
 				93EF46E8246512040029E746 /* SampleHandler.swift */,
 				93EF46EA246512040029E746 /* Info.plist */,
+				93316F202467822000183B9B /* ScreenStreamer-Bridging-Header.h */,
 			);
 			path = ScreenStreamer;
 			sourceTree = "<group>";
@@ -211,6 +230,7 @@
 					};
 					93EF46E2246512040029E746 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -240,6 +260,7 @@
 			files = (
 				93EF46D824650CA00029E746 /* LaunchScreen.storyboard in Resources */,
 				93EF46D524650CA00029E746 /* Assets.xcassets in Resources */,
+				93641784246751BC000DF546 /* Utils in Resources */,
 				93EF46D324650C9E0029E746 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93641785246751C5000DF546 /* Utils in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +346,8 @@
 			files = (
 				93EF46D024650C9E0029E746 /* ViewController.swift in Sources */,
 				93EF46CC24650C9E0029E746 /* AppDelegate.swift in Sources */,
-				938FBCC72465D00E00B18A05 /* ReplayKitVideoSource.swift in Sources */,
 				93EF46CE24650C9E0029E746 /* SceneDelegate.swift in Sources */,
+				93316F1C2467818100183B9B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +357,9 @@
 			files = (
 				938FBCC82465D04F00B18A05 /* ReplayKitVideoSource.swift in Sources */,
 				93EF46E9246512040029E746 /* SampleHandler.swift in Sources */,
+				93316F242467822100183B9B /* ExampleReplayKitAudioCapturer.m in Sources */,
+				93316F1F246781CE00183B9B /* Telecine.swift in Sources */,
+				93316F1D2467818200183B9B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8132F3157355788D57706B5C /* Pods-ScreenStreamer.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FLNFHR2L3;
 				INFOPLIST_FILE = ScreenStreamer/Info.plist;
@@ -537,6 +563,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.softarch.AirMochi.ScreenStreamer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenStreamer/ScreenStreamer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -546,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACF8DD923A4B4194F2464308 /* Pods-ScreenStreamer.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FLNFHR2L3;
 				INFOPLIST_FILE = ScreenStreamer/Info.plist;
@@ -557,6 +586,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.softarch.AirMochi.ScreenStreamer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenStreamer/ScreenStreamer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
