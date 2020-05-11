@@ -27,14 +27,14 @@ class SampleHandler: RPBroadcastSampleHandler {
     let tokenUrl = "http://softarch.usc.edu:3000/token?identity=ios_device_"
     let deviceId = UIDevice.current.identifierForVendor!.uuidString
     let deviceType = UIDevice.current.name
-    let setDeviceUrl = "http://192.168.1.126:3000/device"
-    let deleteDeviceUrl = "http://192.168.1.126:3000/deletedevice"
+    let setDeviceUrl = "http://softarch.usc.edu:3000/device"
+    let deleteDeviceUrl = "http://softarch.usc.edu:3000/deletedevice"
     
     var statsTimer: Timer?
     static let kBroadcastSetupInfoRoomNameKey = "roomName"
 
     // Which kind of audio samples we will capture. The example does not mix multiple types of samples together.
-//    static let kAudioSampleType = RPSampleBufferType.audioMic
+//     static let kAudioSampleType = RPSampleBufferType.audioMic
     
     // The video codec to use for the broadcast. The encoding parameters and format request are built dynamically based upon the codec.
     static let kVideoCodec = H264Codec()!
